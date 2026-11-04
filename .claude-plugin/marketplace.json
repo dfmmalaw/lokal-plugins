@@ -1,0 +1,8 @@
+{
+  "name": "lokal-plugins",
+  "description": "Shared Claude plugins for the Lokal team",
+  "owner": {
+    "name": "Dean Friedland"
+  },
+  "plugins": []
+}

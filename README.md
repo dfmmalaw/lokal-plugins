@@ -55,7 +55,7 @@ Plugins also show up in Claude Code for anyone signed in with their work account
 
 ## One time setup (Claude org Owner)
 
-1. This repo is private on GitHub at `dfmmalaw/lokal-plugins`. A GuloSolutions owner can move it into the org next to the Magnus repos later. Keep it private either way, the sync only takes private or internal repos. Whoever does step 2 needs access to the repo on GitHub, so add them as a collaborator first.
+1. This repo is private on GitHub at `dfmmalaw/lokal-plugins`. A GuloSolutions owner can move it into the org next to the Magnus repos later. Keep it private either way, the sync only takes private or internal repos. Whoever does step 2 needs access to the repo on GitHub, so add them as a collaborator first. While the repo is on Dean's account, Dean installs the Claude GitHub App on it, since only the account owner can.
 2. In Claude go to Organization settings > Plugins & skills > Add > Sync from GitHub. Connect GitHub, pick this repo, and install the Claude GitHub App on it if asked. Leave Sync automatically on so every merge to `main` syncs. Whoever turns that on needs admin access to the repo, since it adds a webhook.
 3. Set Default access to Available to install while we try things out.
 4. Under Plugins & skills > Policy, make sure Skills is on and set Publishing to Off. Team plans default to Open, which lets anyone publish a plugin to the whole org from the Claude UI and skip this repo.
